@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d cli dev brow doc misc
+bspc monitor -d home cli dev brow doc misc 7 8 9
 
 # bspc config border_width         2
 # bspc config window_gap          12
@@ -12,9 +12,8 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
-bspc rule -a firefox desktop='^3'
-bspc rule -a pavucontrol desktop='^5'
-bspc rule -a visual-studio-code desktop='^2'
+bspc rule -a firefox desktop='^4'
+bspc rule -a pavucontrol desktop='^1'
 
 $HOME/.config/polybar/launch.sh
 $HOME/.config/bspwm/wallpaper.sh
