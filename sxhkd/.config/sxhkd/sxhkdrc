@@ -6,10 +6,6 @@
 super + Return
 	ghostty
 
-# browser
-super + shift + f
-	firefox
-
 # slock
 super + x
 	slock
