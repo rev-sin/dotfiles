@@ -1,5 +1,4 @@
 !/bin/bash
 
-exec blueman-applet &
 exec nm-applet &
-exec flameshot &
+exec feh --bg-max $HOME/Pictures/wallpaper.jpg &

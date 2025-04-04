@@ -1,4 +1,5 @@
-gtk-titlebar = false
-font-size = 16
-font-family = JetBrains Mono NL
-theme = GruvboxDarkHard
+font-family = "JetBrains Mono"
+font-size = 14
+theme = "GruvboxDarkHard"
+window-decoration = none
+
